@@ -1,3 +1,43 @@
 .brand {
 	color: #fff;
 }
+
+/*
+*	Buttons
+*
+*/
+.btn {
+	background-color: #92140C; /* Green */
+	cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;	  
+}
+
+.btn-hero {
+	position: relative;
+	bottom: -150px;
+	
+	
+}
+.btn-hero:hover {
+	background-color: #CD9490;
+}
+
+/*
+*	Images
+**/
+
+.img-round {
+	border-radius: 50%;
+	position: relative;
+	bottom: -50px;
+}
+
+
+.byline {
+	position: relative;
+	bottom: -90px;
+}
