@@ -1,5 +1,6 @@
 .brand {
-	color: #fff;
+  margin-top: 10px;
+	color: #000;
 }
 
 /*
@@ -7,8 +8,8 @@
 *
 */
 .btn {
-	background-color: #92140C; /* Green */
-	cursor: pointer;
+	  background-color: #92140C; /* Green */
+	  cursor: pointer;
     border: none;
     border-radius: 5px;
     color: white;
@@ -18,9 +19,7 @@
 
 .btn-hero {
 	position: relative;
-	bottom: -150px;
-	
-	
+	bottom: -150px;	
 }
 .btn-hero:hover {
 	background-color: #CD9490;
@@ -35,9 +34,64 @@
 	position: relative;
 	bottom: -50px;
 }
-
-
 .byline {
 	position: relative;
 	bottom: -90px;
+}
+.list {
+  list-style-type: none;
+}
+.dev-header {
+  
+}
+.back-end {
+  margin-top: 20px;
+  margin-left: 50px; 
+}
+.front-end {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.me-col {
+  margin-left: 70px;  
+}
+
+
+/* Helpers */
+.box {
+  margin-left: 10px;
+  padding: 10px;
+  border: 3px solid black;
+}
+.middle-display {
+  display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+}
+.row-display {
+  display: flex;
+  flex-direction: row;
+  }
+
+/* Nav */
+.nav {
+  margin-top: 10px;
+}
+.nav li {
+  margin-left: 10px;
+  padding: 10px;
+  border: 3px solid black;
+  -webkit-box-shadow: -1px 3px 0px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 3px 0px -2px rgba(0,0,0,0.75);
+  box-shadow: -1px 3px 0px -2px rgba(0,0,0,0.75);
+}
+.nav li:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0px #fff;
+}
+.title{
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 10px;
 }

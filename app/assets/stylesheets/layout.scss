@@ -1,21 +1,33 @@
 .layout-header {
-	padding: 30px;
-	background-color: #37393A;	
+	padding: 10px;
+	background-color: #fdfdfd;	
+  border-bottom: 1px solid #adadad;
+  z-index: 1;
+}
+
+.sticky {
+  
+  position: fixed;
+  width: 100%;
+	padding: 10px;
+	background-color: #fdfdfd;	
+  border-bottom: 1px solid #adadad;
+  z-index: 1;  
 }
 
 .layout-hero {
 	width:100%;
-	padding-bottom: 200px;
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content:center;
-	background-color: #E8EEF2;
+	padding-bottom: 300px;
+	background-color: #fdfdfd;
 }
 
 .layout-content {
+  margin-top: 40px;
 	margin-left: 40px;
-  
+}
+
+.layout-sidebar {
+  margin-top: 40px;
 }
 
 .shadow {
