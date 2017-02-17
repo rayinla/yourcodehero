@@ -6,10 +6,8 @@
 [class*='col-']:last-of-type {
 	padding-right: 0;
 }
-
 .col-2-3 {
 	width: 66.66%;
-
 }
 .col-1-2 {
   width: 50%;
@@ -17,18 +15,49 @@
 .col-1-3 {
 	width: 33.33%;	
 }
-
 .col-1-4 {
   width: 22%; 
 }
-
 .col-3-4 {
   width: 73%;
 }
+.col-mini {
+  width: 1%;
+}
 
+.line {
+  position: relative;
+  border-right: 5px solid black;
+  border-bottom: 5px solid transparent;
+  height: 300px;
+}
+.line_left {
+  position: relative;
+  border-right: 5px solid black;
+  border-bottom: 5px solid transparent;
+  height: 300px;
+}
+.line_right {
+  position: relative;
+  border-right: 5px solid black;
+  border-bottom: 5px solid transparent;
+  height: 300px;
+}
+.line_active {
+  position: relative;
+  border-right: 7px solid black;
+  border-bottom: 5px solid transparent;
+  height: 500px;
+}
 
+.line_thin {
+  position: relative;
+  border-right: 2px solid black;
+  border-bottom: 2px solid transparent;
+  height: 300px;
+}
 
-/* 
+/*
 Clear
  */
 .wrapper:after {
