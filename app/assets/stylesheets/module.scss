@@ -1,5 +1,7 @@
 .brand {
+  font-family:'Bangers', cursive;
   margin-top: 10px;
+  margin-left: 20px;
 	color: #000;
 }
 
@@ -77,8 +79,10 @@
 /* Nav */
 .nav {
   margin-top: 10px;
+  align-items: right;
 }
 .nav li {
+  font-family: 'Bangers', cursive;
   margin-left: 10px;
   padding: 10px;
   border: 3px solid black;
