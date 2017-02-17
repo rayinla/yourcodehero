@@ -7,17 +7,25 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|PT+Serif|Open+Sans" rel="stylesheet">
     <%= javascript_include_tag 'application' %>
+    <script src="jquery-3.1.1.min.js"></script>
   </head>
 
   <body>
   	<header> 
-  		<div class="wrapper layout-header">
-  			<h1 class="brand">YourCodeHero</h1>
-        
-  		</div>
-  	</header>
+      <div class="wrapper layout-header shadow">
+        <div class="col-1-2">
+          <h1 class="brand">YourCodeHero</h1>
+        </div>
+        <div class="col-1-2 nav-wrap">
+          <ul class="nav row-display">
+            <li>About Me</li>
+            <li>Portfolio</li>
+            <li>Hire Me</li>
+            <li>My Stories</li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <%= yield %>
-
-
   </body>
 </html>
