@@ -2,30 +2,28 @@
 	padding: 10px;
 	background-color: #fdfdfd;	
   border-bottom: 1px solid #adadad;
-  z-index: 1;
 }
 
 .sticky {
-  
+  transition: all 1s ease-out;
+  text-align: center;
   position: fixed;
   width: 100%;
-	padding: 10px;
+	padding: 20px;
 	background-color: #fdfdfd;	
   border-bottom: 1px solid #adadad;
   z-index: 1;  
 }
-
 .layout-hero {
 	width:100%;
-	padding-bottom: 300px;
+	padding-bottom: 600px;
 	background-color: #fdfdfd;
+  
 }
-
 .layout-content {
   margin-top: 40px;
 	margin-left: 40px;
 }
-
 .layout-sidebar {
   margin-top: 40px;
 }
