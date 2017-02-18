@@ -1,8 +1,8 @@
 $(document).ready(function(){
+
 	$(window).scroll(function(){
 	    if($(this).scrollTop() > 1){
-	      $('div.layout-header').addClass('sticky');
-	    
+	      $('div.layout-header').addClass('sticky');  
 	    }
 	    else{
 	      $('div.layout-header').removeClass('sticky');
@@ -30,10 +30,12 @@ $(document).ready(function(){
 	  })
 
 	$('.nav li').on("click", function(e){
-	  that = $(e.target)
-	   that.addClass('.nav-active')
-	  $('body').animate({scrollTop:500},'slow' ) 
+	  $('body').animate({scrollTop:550},'slow' ) 
 	   return false;
+	})
+
+	$('.brand').on("click", function(e){
+		$('body').animate({scrollTop:0}, 'slow')
 	})
 });
   
