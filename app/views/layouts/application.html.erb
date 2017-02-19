@@ -6,8 +6,10 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|PT+Serif|Open+Sans|Bangers" rel="stylesheet">
+
     <%= javascript_include_tag 'application' %>
-    <script src="jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
   </head>
 
   <body>
@@ -18,10 +20,11 @@
         </div>
         <div class="col-1-2 nav-wrap">
           <ul class="nav row-display">
-            <li>About Me</li>
-            <li>Portfolio</li>
-            <li>Hire Me</li>
-            <li>My Stories</li>
+            <li class="about">About Me</li>
+            <li class="portfolio" tabindex="0">Portfolio</li>
+            <li class="hire">Hire Me</li>
+            <li class="stories">My Stories</li>
+            <li class="follow">Follow Me</li>
           </ul>
         </div>
       </div>
@@ -29,3 +32,4 @@
     <%= yield %>
   </body>
 </html>
+<!-- <div>Icons made by <a href="http://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->

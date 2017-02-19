@@ -2,8 +2,8 @@
 	padding: 10px;
 	background-color: #fdfdfd;	
   border-bottom: 1px solid #adadad;
+  transition: all 1s ease-out;
 }
-
 .sticky {
   transition: all 1s ease-out;
   text-align: center;
@@ -15,25 +15,24 @@
   z-index: 1;  
 }
 .layout-hero {
+  font-family:'Bangers', cursive;
 	width:100%;
-	padding-bottom: 600px;
-	background-color: #fdfdfd;
-  
+	padding-bottom: 800px;
+	background-color: #fdfdfd; 
 }
 .layout-content {
   margin-top: 40px;
-	margin-left: 40px;
+	/*margin-left: 40px;*/
+  text-overflow: hidden;
 }
 .layout-sidebar {
   margin-top: 40px;
 }
-
 .shadow {
  -webkit-box-shadow: -1px 3px 0px -2px rgba(0,0,0,0.75);
  -moz-box-shadow: -1px 3px 0px -2px rgba(0,0,0,0.75);
  box-shadow: -1px 3px 0px -2px rgba(0,0,0,0.75);
 }
-
 .headline {
   border-bottom: 1px solid black;
 }
