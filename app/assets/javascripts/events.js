@@ -31,25 +31,13 @@ $(document).ready(function(){
 
 	$('.follow').on("click", function(e){
 		e.preventDefault()
-		var scrollPosition = 0
-		console.log($(document).width())
-		if ($(document).width() <= 980) {
-			scrollPosition = 320
-		}
-		else if ($(document).width() > 980 && $(document).width() < 1100){
-		 	scrollPosition = 350 
+		 if ($(window).scrollTop() > 0){
+		 		var followPosition = $('.soc-list')[0].offsetTop - 100
+		 }else{
+		 		var followPosition = $('.soc-list')[0].offsetTop - 180
 		 }
-		 else if ($(document).width() < 1294){
-		 	scrollPosition = 420
-		 }
-		 else if ($(document).width() > 1294 && $(document).width() < 1400){
-		 	 console.log('last', scrollPosition = 480)
-		 }
-		 else if ($(document).width() > 1400){
-		 	scrollPosition = 550
-		 }
-
-		 $('body').animate({scrollTop:scrollPosition},'slow' ) 
+		
+		 $('body').animate({scrollTop:followPosition},'slow' ) 
 	  		return false; 
 	})
 
@@ -78,11 +66,11 @@ $(document).ready(function(){
 	  		return false; 
 	})
 
-	$('.stories').on("click", function(e){
+	$('.hire').on("click", function(e){
 		 if ($(window).scrollTop() > 0){
-		 		var storiesPosition = $('.layout-content_stories')[0].offsetTop - 100
+		 		var storiesPosition = $('.layout-content_contact')[0].offsetTop - 100
 		 }else{
-		 		var storiesPosition = $('.layout-content_stories')[0].offsetTop - 180
+		 		var storiesPosition = $('.layout-content_contact')[0].offsetTop - 180
 		 }
 		 $('body').animate({scrollTop:storiesPosition},'slow' ) 
 	  		return false; 
