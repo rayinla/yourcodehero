@@ -3,31 +3,46 @@
   <head>
     <title>PortfolioSite</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all' %>
-   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|PT+Serif|Open+Sans|Bangers" rel="stylesheet">
-
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|PT+Serif|Open+Sans|Raleway|Patua+One" rel="stylesheet">
     <%= javascript_include_tag 'application' %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
   </head>
 
   <body>
-  	<header> 
-      <div class="wrapper layout-header shadow">
+    <div class="bg-img">
+  	<header class="layout-header"> 
         <div class="col-1-2">
-          <h1 class="brand">Your < Code /> Hero</h1>
+          <h1 class="brand">YourCodeHero /></h1>
         </div>
         <div class="col-1-2 nav-wrap">
           <ul class="nav row-display">
-            <a href="#"><li class="follow">Follow Me</li></a>
-            <a href="#"><li class="about">About Me</li></a>
-            <a href="#"><li class="portfolio">Projects</li></a>
-            <a href="#"><li class="hire">Hire Me</li></a>   
+            <a href="#"><li class="follow">FOLLOW</li></a>
+            <a href="#"><li class="about">ABOUT</li></a>
+            <a href="#"><li class="portfolio">PROJECTS</li></a>
+            <a href="#"><li class="hire">HIRE</li></a>   
           </ul>
         </div>
-      </div>
     </header>
+
+    <section class="layout-hero middle-display">
+
+      <div class="me-col">
+       <div class="logo"><h2>/></h2></div>
+       <section class="cd-intro">
+        <h1 class="cd-headline push">
+        <span>Super</span>
+        <span class="cd-words-wrapper">
+          <b class="is-visible">modern</b>
+          <b>smooth</b>
+        </span>
+        <span>desgins</span>
+        </h1>
+        </section>
+      </div>
+    
+    </section>
+  </div>
     <%= yield %>
   </body>
 </html>
