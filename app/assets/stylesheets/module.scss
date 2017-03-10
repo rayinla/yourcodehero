@@ -101,18 +101,19 @@
 .soc-list {
   position: relative;
   margin-top: -10px;
+  margin-left: -5px;
   bottom: -110px;
 }
-  .soc-list_icons {
-    padding-left: 20px;
-  }
-.soc-logo {
-  height: 16px;
-  width: 16px;
+
+.soc-list li {
+  margin-left: 60px;
+  border-color: #fff;
+  -webkit-filter: drop-shadow(2px 5px 2px #000);
+  filter: drop-shadow(2px 5px 2px #000);
 }
-.soc-logo:hover {
+.soc-list li:hover {
   cursor: pointer;
-  transform: scale(1.5,1.5);
+  transform: scale(1.2,1.2);
 
 }
 .back-end {
@@ -422,13 +423,22 @@ figure:hover .img-content {
 
 .img-content h3 {
  display: inline-block;
- background-color: rgba(0,0,0,0.5);
+ background-color: rgba(0,0,0,0.6);
  padding-left: 10px;
  padding-right: 10px;
 }
 .img-content p {
-   background-color: rgba(0,0,0,0.5);
+   background-color: rgba(0,0,0,0.6);
    padding: 25px;
    line-height: 1.5;
 }
+
+.attribute p {
+  font-size: 12px;
+}
+
+.attribute a {
+  text-decoration: underline;
+}
+
 
