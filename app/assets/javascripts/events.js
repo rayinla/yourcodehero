@@ -1,7 +1,5 @@
 $(document).ready(function(){
-
 	$(window).scroll(function(){
-
 	    if($(this).scrollTop() > 1){
 	      $('header.layout-header').addClass('sticky');
 	      
@@ -30,8 +28,8 @@ $(document).ready(function(){
 	    }
 
 	  $('.back-end').on('mouseover', function(){
-	   $('.front-end').siblings('div.line_left').addClass('line_active')
-	    $('.front-end').siblings('div.line_right').addClass('line_thin')
+	   $('.front-end').siblings('div.line_left').addClass('line_active')	 
+	   $('.front-end').siblings('div.line_right').addClass('line_thin')
 	  })
 	  
 	 $('.back-end').on('mouseout', function(){
@@ -101,15 +99,6 @@ $(document).ready(function(){
 	})
 
 
-	$('.bg-politician').on("mouseover", function(){
-		console.log($(this).children('div'))
-		$(this).children('div').addClass('img-content-visible')
-	})
-
-	$('.bg-politician').on("mouseout", function(){
-		console.log($(this).children('div'))
-		$(this).children('div').removeClass('img-content-visible')
-	})
 });
   
   
